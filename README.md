@@ -32,7 +32,7 @@ this.countDown = new CountDown({
          callback: function () {
              alert('剩余10s时的回调')
         }
-	}
+}
 })
 // 开始倒计时
 this.countDown.countDown()
