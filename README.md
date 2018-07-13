@@ -30,8 +30,8 @@ this.countDown = new CountDown({
     additionToggle: { // 可选，剩余seconds时触发的回调
     	seconds: 10,
          callback: function () {
-             alert('剩余10s时的回调');
-         }
+             alert('剩余10s时的回调')
+        }
 	}
 })
 // 开始倒计时
